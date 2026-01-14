@@ -1,1 +1,15 @@
-Open this repo in Databricks using Repos. Make sure the cluster is running. Open the notebook lab_2_4_repro_logging and run all cells from top to bottom. The notebook reads input files from data/menu_items.csv and data/order_details.csv and writes log output to the logs/ folder.
+## Reproduction steps (Databricks)
+
+1. Open this repository in Databricks as a Git folder.
+2. Open the notebook: `notebooks/lab_2_4_repro_logging`
+3. Run all cells top-to-bottom.
+
+## Inputs
+
+- `data_samples/menu_items.csv`
+- `data_samples/order_details.csv`
+
+## Outputs
+
+- Logs written to `logs/` (if logging is enabled in the notebook).
+- Any generated artifacts (e.g., hashes/requirements) are saved in the repo as instructed by the notebook.
