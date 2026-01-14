@@ -1,0 +1,1 @@
+Open this repo in Databricks using Repos. Make sure the cluster is running. Open the notebook lab_2_4_repro_logging and run all cells from top to bottom. The notebook reads input files from data/menu_items.csv and data/order_details.csv and writes log output to the logs/ folder.
