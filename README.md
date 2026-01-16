@@ -1,28 +1,24 @@
-# Lab 2.4 — Repository Setup
+# Lab 2.4 — GitHub Repository Setup (Reproducible ETL)
 
-This repository is the setup for Lab 2.4. It contains the Week 1 restaurant CSV files and a Databricks notebook that will be used to practice reproducible ETL and logging.
+This repository is the required project structure for Lab 2.4. It is designed to support reproducible ETL work in Databricks using sample restaurant order data.
 
-## Folder structure
+## Folder purposes
 
-- `data/`
-  Stores the input CSV files used by the notebook:
+- `notebooks/`
+  Contains Databricks notebooks for this project.
+  - Main notebook: `lab_2_4_repro_logging`
+
+- `sql/`
+  Reserved for SQL scripts (transformations/queries) used by the pipeline.
+
+- `etl_pipeline/`
+  Reserved for Python modules or scripts that implement the ETL pipeline outside of notebooks.
+
+- `data_samples/`
+  Contains the input sample datasets used for the lab:
   - `menu_items.csv`
   - `order_details.csv`
 
-- `logs/`
-  Stores log files created by the notebook when it runs.
+## How to run
 
-## Files
-
-- `README.md`
-  Project overview and folder descriptions.
-
-- `RUN.md`
-  Exact steps to reproduce a run in Databricks.
-
-## How to run in Databricks
-
-1. In Databricks Workspace, open this repo as a Git folder.
-2. Open the notebook `lab_2_4_repro_logging`.
-3. Run all cells from top to bottom.
-4. Verify that the notebook reads the CSVs from `data/` and writes logs into `logs/`.
+See `RUN.md` for the exact steps to run the notebook in Databricks.
