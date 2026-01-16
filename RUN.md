@@ -1,3 +1,6 @@
+feat/etl-notebook
+Open this repo in Databricks using Repos and attach a running cluster. Open the notebook notebooks/lab_2_4_repro_logging and run all cells top to bottom. The notebook reads input files from data_samples/menu_items.csv and data_samples/order_details.csv, writes logs to logs/run_*.log, writes requirements.txt and data_hashes.json at the repo root, and saves metrics output to etl_pipeline/etl_output/metrics_<timestamp>.csv. Public DBFS FileStore is disabled in this workspace, so outputs are saved to the repo instead of /FileStore/tables/etl_output.
+
 ## Reproduction steps (Databricks)
 
 1. Open this repository in Databricks as a Git folder.
@@ -13,3 +16,4 @@
 
 - Logs written to `logs/` (if logging is enabled in the notebook).
 - Any generated artifacts (e.g., hashes/requirements) are saved in the repo as instructed by the notebook.
+main
