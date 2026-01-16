@@ -1,0 +1,22 @@
+2026-01-16 01:45:45,220 | INFO | Run started
+2026-01-16 01:45:45,221 | INFO | repo_root=/Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-
+2026-01-16 01:45:45,223 | INFO | log_path=/Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-/logs/run_20260116_0145.log
+2026-01-16 01:45:45,225 | INFO | Python=3.12.3
+2026-01-16 01:45:45,226 | INFO | Platform=Linux-5.15.0-1097-aws-aarch64-with-glibc2.39
+2026-01-16 01:45:45,226 | INFO | Host=ip-10-149-122-209
+2026-01-16 01:45:45,227 | INFO | data_dir=/Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-/data_samples
+2026-01-16 01:45:45,228 | INFO | menu_path=/Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-/data_samples/menu_items.csv
+2026-01-16 01:45:45,229 | INFO | orders_path=/Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-/data_samples/order_details.csv
+2026-01-16 01:45:47,532 | INFO | Loaded menu_items: (32, 4)
+2026-01-16 01:45:47,533 | INFO | Loaded order_details: (12234, 5)
+2026-01-16 01:46:28,841 | INFO | Reproducibility: seeds set (PYTHONHASHSEED=0, random=0, numpy=0)
+2026-01-16 01:46:28,947 | INFO | SHA-256 menu_items.csv: 396ce2521d4cb609d72cfae06e80a7f347f608c6709b31ff70a14cecfea994ac
+2026-01-16 01:46:28,948 | INFO | SHA-256 order_details.csv: 284cfe6edcc57ba4ea38e263cc0d113c2e63d8bf0862e74cb40151e8a77ca8b9
+2026-01-16 01:46:28,977 | INFO | Wrote data hashes to /Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-/data_hashes.json
+2026-01-16 01:47:17,013 | INFO | Wrote requirements to /Workspace/Users/tcm082@ensign.edu/csai382_lab_2_4_-tmuhlestein-/requirements.txt
+2026-01-16 01:47:49,451 | INFO | menu_items columns: ['menu_item_id', 'item_name', 'category', 'price']
+2026-01-16 01:47:49,453 | INFO | order_details columns: ['order_details_id', 'order_id', 'order_date', 'order_time', 'item_id']
+2026-01-16 01:48:29,418 | INFO | Cleaned types and created order_ts
+2026-01-16 01:48:29,428 | INFO | Joined shape: (12234, 10)
+2026-01-16 01:48:29,430 | INFO | Tidy shape: (12234, 7)
+2026-01-16 01:49:33,065 | INFO | Computed metrics: top5_items, revenue_by_category, busiest_hour
